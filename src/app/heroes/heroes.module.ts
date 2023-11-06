@@ -11,6 +11,7 @@ import { MaterialModule } from '../material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { HeroImagePipe } from './pipes/hero-image.pipe';
     CommonModule,
     HeroesRoutingModule,
     MaterialModule,
+    ReactiveFormsModule,
   ]
 })
 export class HeroesModule { }
